@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <h1>Everyday Coffee</h1>
+    <div>
+      <a href="https://savee.it/search/?q=coffee"
+        ><img
+          src="https://dr.savee-cdn.com/things/thumbnails/5/f/05aec7f0262e36d0709f09.webp"
+          alt="coffee"
+      /></a>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officia
+        iusto, facere asperiores repudiandae id, ut possimus sit eos ipsum
+        officiis praesentium dolore ex recusandae molestias laborum natus, eaque
+        quia!
+      </p>
+    </div>
+
+    <div>
+      <table>
+        <tr>
+          <th>Coffee Beans</th>
+          <th>Caffein level</th>
+          <th>Flavor</th>
+        </tr>
+        <tr>
+          <td>Robusta</td>
+          <td>High</td>
+          <td>Strong, bitter flavor</td>
+        </tr>
+        <tr>
+          <td>Arabica</td>
+          <td>Medium-high</td>
+          <td>Sweet, smooth flavor</td>
+        </tr>
+        <tr>
+          <td>Liberica</td>
+          <td>Medium-low</td>
+          <td>Bold, smoky flavor</td>
+        </tr>
+        <tr>
+          <td>Excelsa</td>
+          <td>low</td>
+          <td>Tart, fruity flavor</td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <h3>Most expensive coffees in the world</h3>
+      <ul>
+        <li>Kopi Luwak</li>
+        <li>Black Ivory</li>
+        <li>Saint Helena</li>
+        <li>Hacienda La Esmeralda</li>
+        <li>Finca El Injerto</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Please take a short survey</h2>
+      <form action="">
+        <label>Name: <input type="text" name="name" /></label>
+        <fieldset>
+          <legend>Are you a coffee lover?</legend>
+          <label> <input type="radio" name="yes" value="yes" />Yes </label>
+          <label> <input type="radio" name="no" value="no" />No </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>How many coffee do you drink everyday?</legend>
+          <input type="checkbox" value="1-2cups" />
+          <label>1-2 cups </label>
+          <input type="checkbox" value="3-5cups" /><label>3-5 cups</label>
+          <input type="checkbox" value="more-than-5" />
+          <label>More than 5 cups</label>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
