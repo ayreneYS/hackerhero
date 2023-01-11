@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  width: 970px;
+  height: 800px;
+}
+
+#side,
+#intro {
+  display: inline-block;
+}
+
+/* Side Info */
+#side {
+  vertical-align: top;
+  background-color: rgba(238, 235, 229, 0.888);
+  height: 900px;
+  width: 22%;
+  font-size: 14px;
+  border-right-style: solid;
+  border-color: rgb(224, 221, 221);
+}
+
+#side li {
+  padding: 5px 15px 0px 15px;
+  font-size: 12px;
+  list-style: none;
+}
+
+.gray {
+  padding: 15px 15px 5px 15px;
+  color: gray;
+  font-size: smaller;
+}
+
+/* Intro */
+#intro {
+  padding-top: 8px;
+  padding-left: 40px;
+  width: 65%;
+}
+
+#intro h1 {
+  font-size: 28px;
+  font-weight: 800;
+  padding-bottom: 18px;
+}
+
+#intro h2 {
+  font-size: 21px;
+  font-weight: 800;
+  padding-top: 5px;
+  padding-bottom: 13px;
+}
+
+#intro p,
+h4 {
+  padding-bottom: 7px;
+  padding-top: 8px;
+  font-size: 15px;
+}
+
+/* Span */
+.italic {
+  font-style: italic;
+}
+
+.highlight {
+  color: rgb(4, 89, 188);
+}
+
+/* Borders */
+.border {
+  border-style: solid;
+  border-radius: 4px;
+  border-color: rgba(238, 235, 229, 0.888);
+}
+
+#first-border {
+  padding: 10px 100px 20px 15px;
+}
+
+#second-border {
+  padding: 20px 100px 20px 25px;
+}
+
+ol {
+  padding-left: 19px;
+  padding-bottom: 5px;
+}
+
+li {
+  padding-bottom: 4px;
+  font-size: 15px;
+}
