@@ -1,0 +1,171 @@
+/* Help Menu */
+.help-menu1 {
+  padding: 10px 40px;
+  background-color: rgb(42, 41, 41);
+  color: rgb(229, 228, 228);
+  font-size: 10px;
+}
+
+.help-menu1 h5 {
+  display: inline-block;
+}
+
+.help-menu1 a {
+  color: rgb(229, 228, 228);
+  text-decoration: none;
+}
+
+.help-menu2 {
+  display: inline-block;
+  margin-left: 550px;
+}
+
+.help-menu2 h5 {
+  padding-left: 20px;
+}
+
+article {
+  display: inline-block;
+  width: 970px;
+  background-color: rgb(42, 41, 41);
+}
+
+/* Help menu 3 */
+.help-menu3 {
+  display: inline-block;
+  background-color: rgb(246, 244, 244);
+  width: 68.5%;
+  padding: 10px 0px;
+  margin-left: 25px;
+}
+
+.help-menu3 p a {
+  color: rgb(93, 118, 185);
+  text-decoration: none;
+}
+
+.language-selector {
+  margin-left: 455px;
+  font-size: 11px;
+  color: rgb(65, 64, 64);
+}
+
+#language {
+  font-size: 10px;
+  width: 100px;
+}
+
+.submit-link {
+  display: inline;
+  margin-left: 489px;
+  font-size: 9.3px;
+}
+
+.report-link {
+  display: inline;
+  margin-left: 8px;
+  font-size: 9.3px;
+}
+
+/* Title and contents */
+h1,
+h2,
+h3 {
+  border: 0px;
+  width: 627px;
+  padding: 4px 0px;
+}
+
+h1 {
+  font-size: 19px;
+  margin: 5px 20px 15px 20px;
+  border-bottom: 2px solid rgb(158, 156, 156);
+  border-style: dotted;
+}
+
+h2 {
+  font-size: 17px;
+  margin: 15px 20px;
+  border-bottom: 2px solid rgb(103, 103, 103);
+  border-style: dotted;
+}
+
+h3 {
+  font-size: 13px;
+  margin: 15px 20px;
+  border-bottom: 2px solid rgb(129, 72, 100);
+  border-style: dotted;
+  color: rgb(129, 72, 100);
+}
+
+article ul {
+  margin: 10px 40px;
+  font-size: 10px;
+}
+
+article ul li {
+  padding-bottom: 5px;
+}
+
+article ul li a {
+  color: rgb(93, 118, 185);
+}
+
+article .description {
+  width: 640px;
+  margin: 15px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  color: rgb(65, 64, 64);
+}
+
+.add-note img {
+  width: 8px;
+  height: 8px;
+  padding-right: 4px;
+}
+.add-note {
+  padding-left: 410px;
+  font-size: 10px;
+  color: rgb(93, 118, 185);
+}
+
+/* Article menu */
+.article-menu {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.article-menu h4,
+.article-menu p {
+  border: 0px;
+  width: 200px;
+
+  color: rgb(229, 228, 228);
+  border-bottom: 2px solid rgb(103, 103, 103);
+  border-style: dotted;
+}
+
+.article-menu h4 {
+  margin-top: 5px;
+  padding: 2px 0px 7px 0px;
+  font-size: 12px;
+}
+
+.article-menu .introduction {
+  width: 185px;
+  padding: 0px 0px 3px 15px;
+
+  font-size: 10px;
+  border-style: dotted;
+}
+
+.article-menu .tutorial {
+  font-size: 10px;
+  padding-bottom: 3px;
+  border-bottom: rgb(129, 72, 100);
+  border-style: dotted;
+  color: rgb(129, 72, 100);
+}
