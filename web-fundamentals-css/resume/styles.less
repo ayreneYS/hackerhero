@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Varela Round');
+@primary_color: rgb(51, 73, 98);
+@secondary_color: rgb(49, 46, 46);
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Varela Round', sans-serif;
+  width: 855px;
+  margin: 0 auto;
+}
+main {
+  background: linear-gradient(
+    rgba(194, 212, 227, 0.819),
+    rgb(244, 241, 241),
+    rgba(194, 212, 227, 0.819)
+  );
+  padding: 30px 0px 10px 50px;
+}
+#info-section {
+  margin-bottom: 25px;
+  .img {
+    display: inline-block;
+  }
+  img {
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 75% 0;
+  }
+  .info {
+    display: inline-block;
+    width: 540px;
+    height: 200px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    vertical-align: top;
+    line-height: 30px;
+    h1 {
+      font-size: 50px;
+      color: @primary_color;
+      padding-top: 30px;
+      padding-bottom: 10px;
+      letter-spacing: 2px;
+      font-weight: bolder;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+    .line {
+      border-bottom: 3px solid @primary_color;
+      margin: 25px 55px 25px 0px;
+    }
+    ul {
+      color: @secondary_color;
+      display: flex;
+      text-transform: lowercase;
+    }
+  }
+}
+#about-section {
+  background-color: rgba(218, 218, 224, 0.562);
+  padding: 15px 20px;
+  width: 715px;
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 19px;
+    color: @secondary_color;
+    letter-spacing: 1px;
+  }
+  p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+}
+#tech-section {
+  padding: 25px 0px;
+  width: 820px;
+  .languages {
+    width: 340px;
+    vertical-align: top;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 0px 15px 22px;
+    background: transparent;
+    h3 {
+      padding-bottom: 20px;
+    }
+    img {
+      display: inline;
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+    }
+  }
+  .projects {
+    display: inline-block;
+    background: linear-gradient(
+      rgba(218, 218, 224, 0.562),
+      rgb(251, 249, 249),
+      rgba(218, 218, 224, 0.562)
+    );
+    width: 345px;
+    height: 345px;
+    padding: 10px 15px 20px 30px;
+  }
+  h4 {
+    text-transform: uppercase;
+    padding-top: 25px;
+    font-size: 15px;
+  }
+  p {
+    line-height: 20px;
+  }
+}
+footer {
+  margin-left: 140px;
+  text-decoration: underline;
+  display: inline;
+  justify-content: center;
+  img {
+    padding-left: 10px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    vertical-align: -5px;
+  }
+}
