@@ -1,0 +1,29 @@
+.navbtn {
+	text-align: center;
+}
+@media only screen and (max-width: 480px) {
+	button {
+		background-color: yellow;
+		font-size: 10px;
+		width: 100%;
+		padding: 5px;
+		margin: 5px;
+	}
+}
+@media only screen and (min-width: 481px) {
+	button {
+		background-color: blue;
+		font-size: 15px;
+		width: 40%;
+		padding: 5px;
+		margin: 5px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	button {
+		background-color: red;
+		font-size: 16px;
+		width: 10%;
+	}
+}

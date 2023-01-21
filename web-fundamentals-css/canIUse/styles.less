@@ -1,114 +1,134 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 body {
-  background-image: url('images/icons8-vertical-line-24_5.png');
-  background-repeat: repeat;
-  font-family: 'Abel';
-  main {
-    width: 1000px;
-    margin-left: 350px;
-    nav {
-      ul {
-        li {
-          background-color: rgba(171, 168, 168, 0.495);
-          padding: 13px;
-          display: inline-block;
-          font-size: 24px;
-        }
-        a {
-          list-style-type: none;
-          text-decoration: none;
-          color: #fff;
-        }
-      }
-      .nav {
-        display: inline;
-      }
-      .nav-indent {
-        display: inline;
-        margin-left: 498px;
-      }
-    }
-    .canIUse {
-      width: 970px;
-      margin: 20px 0px 40px 0px;
-      padding: 20px 0px;
-      background-color: rgb(188, 83, 2);
-      text-align: center;
-      color: #fff;
-      input {
-        width: 380px;
-        height: 30px;
-        vertical-align: middle;
-        font-size: 30px;
-        color: #fff;
-        text-align: center;
-        background-color: transparent;
-        border-bottom: 1px solid #fff;
-      }
-    }
-    // Table
-    .poundSign {
-      position: absolute;
-      color: #fff;
-      background-color: rgb(207, 106, 39);
-      width: 36px;
-      padding: 0px 0px 10px 10px;
-      height: 35px;
-      font-size: 25px;
-      top: 29%;
-      left: 18.3%;
-    }
+	background-image: url('images/icons8-vertical-line-24_5.png');
+	background-repeat: repeat;
+	font-family: 'Abel';
+	main {
+		position: absolute;
+		width: 1000px;
+		margin-left: 350px;
+		nav {
+			ul {
+				li {
+					background-color: rgba(171, 168, 168, 0.495);
+					padding: 13px;
+					display: inline-block;
+					font-size: 24px;
+				}
+				a {
+					list-style-type: none;
+					text-decoration: none;
+					color: #fff;
+				}
+			}
+			.nav {
+				display: inline;
+			}
+			.nav-indent {
+				display: inline;
+				margin-left: 530px;
+			}
+		}
+		.canIUse {
+			width: 970px;
+			margin: 20px 0px 40px 0px;
+			padding: 20px 0px;
+			background-color: rgb(188, 83, 2);
+			text-align: center;
+			color: #fff;
+			input {
+				width: 380px;
+				height: 30px;
+				vertical-align: middle;
+				font-size: 30px;
+				color: #fff;
+				text-align: center;
+				background-color: transparent;
+				border-bottom: 1px solid #fff;
+			}
+		}
+		// Table
+		.poundSign {
+			position: absolute;
+			width: 25px;
+			height: 28px;
+			top: 33%;
+			right: 100%;
+			padding: 0px 3px 10px 8px;
+			font-size: 30px;
+			color: #fff;
+			background-color: rgb(207, 106, 39);
+		}
+		.content {
+			background-color: antiquewhite;
+			height: auto;
+			width: 970px;
+			.description {
+				height: 33%;
+				width: 43%;
+				padding: 15px 0px 0px 15px;
+				h2 {
+					font-weight: 100;
+					font-size: 35px;
+					padding-bottom: 15px;
+				}
+				p {
+					font-size: 20px;
+				}
+			}
+			.table {
+				margin: 10px 0px 20px 33px;
+				padding-bottom: 30px;
 
-    .content {
-      background-color: antiquewhite;
-      height: auto;
-      width: 970px;
-      .description {
-        height: 33%;
-        width: 43%;
-        padding: 15px 0px 0px 15px;
-        h2 {
-          font-size: 35px;
-        }
-        p {
-          font-size: 20px;
-        }
-      }
-      .table-grid {
-        .row-header {
-          li {
-            background-color: aqua;
-            list-style-type: none;
-            text-align: center;
-          }
-        }
-        .row {
-          display: grid;
-          grid-template-columns: repeat(11, 1fr);
-          grid-gap: 2px;
-          .cell {
-            padding: 10px;
-            list-style-type: none;
-            text-align: center;
-            p {
-              background-color: #fff;
-              position: relative;
-              display: inline;
-              width: 20px;
-              height: 10px;
-              font-size: 10px;
-              bottom: 10px;
-            }
-          }
-          .header {
-            font-weight: bold;
-          }
-        }
-      }
-    }
-  }
+				div {
+					display: inline-block;
+					width: 80px;
+				}
+				ul {
+					display: grid;
+					grid-gap: 4px;
+					.row-header {
+						padding-bottom: 15px;
+						color: black;
+						border-bottom: 4px solid black;
+					}
+					li {
+						width: 80px;
+						height: 35px;
+						list-style-type: none;
+						text-align: center;
+						font-size: 19px;
+						color: #fff;
+						p {
+							position: relative;
+							display: inline;
+							width: 20px;
+							bottom: 10px;
+							right: 10px;
+							font-size: 10px;
+							color: black;
+							background-color: #fff;
+						}
+					}
+					.gray {
+						// padding: 20px;
+						background-color: rgba(128, 128, 128, 0.108);
+					}
+					.mustard {
+						background-color: rgb(163, 116, 28);
+					}
+					.red {
+						background-color: rgb(117, 17, 17);
+					}
+					.green {
+						background-color: rgb(45, 139, 53);
+					}
+				}
+			}
+		}
+	}
 }

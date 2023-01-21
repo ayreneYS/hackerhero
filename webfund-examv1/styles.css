@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: 0;
+}
+
+body {
+	width: 100%;
+	font-family: sans-serif;
+}
+/* NAV */
+nav {
+	width: 100%;
+	padding: 10px;
+	background-color: rgb(16, 20, 35);
+}
+
+nav img {
+	padding-top: 5px;
+	width: 95px;
+	height: 30px;
+}
+
+nav div {
+	margin: 0px 15px;
+	display: inline-block;
+	vertical-align: 23px;
+}
+
+nav p {
+	display: grid;
+	color: rgb(208, 206, 206);
+	font-size: 11px;
+}
+
+span {
+	color: #fff;
+	font-size: 15px;
+}
+
+form {
+	display: inline-block;
+	vertical-align: 5px;
+	width: 1050px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.search-container {
+	vertical-align: 8px;
+	width: 100%;
+	margin-left: 1px;
+}
+
+.search-container select {
+	display: inline-block;
+	width: 4%;
+	padding: 9.5px 0px;
+	font-size: 12px;
+	background-color: rgb(236, 235, 235);
+	box-sizing: border-box;
+	border-right: 1px solid gray;
+	border-radius: 4px;
+}
+
+.search-container input {
+	display: inline-block;
+	width: 82%;
+	padding: 8px 8px;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.search-container button {
+	width: 4%;
+	padding: 10px 2px;
+	margin-left: 95px;
+	box-sizing: border-box;
+	background-color: #e6a259;
+	color: rgb(91, 91, 91);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.align {
+	vertical-align: 6px;
+	margin-left: 10px;
+}
+
+.align p {
+	margin-left: 3px;
+}
+
+.align select {
+	background: transparent;
+	color: #fff;
+}
+
+.cart {
+	vertical-align: 6px;
+}
+.cart img {
+	display: inline-block;
+	width: 50px;
+}
+
+.cart p {
+	display: inline;
+}
+/* Tabs */
+.tabs {
+	background-color: rgb(43, 52, 72);
+}
+
+.tabs li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.tabs a {
+	list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.all {
+	padding-left: 15px;
+}
+
+.free-shipping {
+	padding-left: 950px;
+}
+
+/* Boxes */
+.box-container {
+	background: linear-gradient(to top, rgba(197, 197, 197, 0.916) 10%, rgba(255, 255, 255, 0.068) 90%), url(./images/background.jpg);
+	background-size: contain;
+}
+.box-container2 {
+	background: rgb(198, 184, 184);
+}
+
+.box-container div {
+	margin-top: 250px;
+}
+.box {
+	margin: 10px;
+	width: 340px;
+	height: 420px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #fff;
+}
+
+.box h4 {
+	padding: 25px 0px 0px 20px;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.box img {
+	width: 300px;
+	padding: 25px;
+}
+
+.indent {
+	margin-left: 130px;
+}
+
+.box p {
+	margin-top: 30px;
+}
+
+.box p a {
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 13px;
+	color: rgb(2, 170, 170);
+}
+
+.text-align p {
+	margin-top: 20px;
+}
+
+.text-align img {
+	padding-top: 2px;
+}
+
+.kindle img {
+	height: 240px;
+}
+
+.gaming img {
+	margin-left: 55px;
+	width: 150px;
+}
+
+/* footer */
+footer {
+	background-color: rgb(43, 52, 72);
+}
+
+footer ul {
+	padding-top: 20px;
+	margin-left: 650px;
+}
+footer li {
+	display: inline;
+	margin: 5px;
+}
+
+footer li a {
+	text-decoration: none;
+	color: rgba(230, 228, 228, 0.833);
+	font-size: 12px;
+}
+
+footer p {
+	margin-left: 695px;
+	color: rgba(230, 228, 228, 0.833);
+	font-size: 12px;
+}
