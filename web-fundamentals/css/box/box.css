@@ -1,0 +1,198 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	background-color: #ffd9b7;
+}
+
+#logo {
+	background-color: #b97a57;
+	min-height: 130px;
+	width: 100%;
+}
+
+#navigation {
+	background-color: #ff7f27;
+	min-height: 130px;
+	width: 100%;
+}
+
+#main_content {
+	background-color: #880015;
+	height: 420px;
+	width: 100%;
+	margin: 0px;
+	padding: 40px;
+}
+
+#about {
+	background-color: #ffaec9;
+	height: 420px;
+	width: 91%;
+}
+
+#advertisement {
+	overflow: hidden;
+	background: transparent;
+}
+
+.sponsors {
+	display: inline-block;
+	background-color: #ffff88;
+	height: 65px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.first {
+	margin-top: 20px;
+}
+
+/* @media only screen and (max-width: 480px) {
+	#logo {
+		min-height: 130px;
+		width: 100%;
+		margin: 0px 20px 20px 0px;
+	}
+
+	#navigation {
+		min-height: 130px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#main_content {
+		height: 600px;
+		width: 100%;
+		margin: 0px;
+	}
+
+	#about {
+		height: 520px;
+		width: 92%;
+		margin: 40px;
+	}
+
+	#advertisement {
+		background: transparent;
+		overflow: hidden;
+	}
+
+	#lower {
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
+	.sponsors {
+		height: 65px;
+		width: 480px;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.first {
+		margin-right: 20px;
+	}
+} */
+
+@media only screen and (min-width: 481px) {
+	#logo {
+		display: inline-block;
+		min-height: 130px;
+		width: 30%;
+		margin: 0px 20px 20px 0px;
+	}
+
+	#navigation {
+		display: inline-block;
+		min-height: 130px;
+		width: 67.3%;
+		margin-bottom: 20px;
+	}
+
+	#main_content {
+		height: 600px;
+		width: 100%;
+		margin: 0px;
+		padding: 40px 00px 0px 20px;
+	}
+
+	#about {
+		height: 520px;
+		width: 92%;
+		margin: 20px;
+	}
+
+	#advertisement {
+		background: transparent;
+		overflow: hidden;
+	}
+
+	#lower {
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
+	.sponsors {
+		height: 65px;
+		width: 480px;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.first {
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	#logo {
+		min-height: 130px;
+		width: 15%;
+		margin: 20px;
+	}
+
+	#navigation {
+		min-height: 130px;
+		width: 80%;
+		margin: 20px;
+	}
+
+	#main_content {
+		height: 600px;
+		width: 93%;
+		margin: 0px 20px;
+	}
+
+	#about {
+		display: inline-block;
+		height: 520px;
+		width: 80%;
+		margin: 40px;
+	}
+
+	#advertisement {
+		display: inline-block;
+		vertical-align: top;
+		background-color: #c8bfe7;
+		height: 400px;
+		width: 195px;
+		margin: 40px 0px 0px 10px;
+	}
+
+	#lower {
+		margin: 20px 0px 0px 10px;
+		padding-bottom: 20px;
+	}
+
+	.sponsors {
+		display: inline-block;
+		height: 65px;
+		width: 543px;
+		margin-left: 10px;
+	}
+
+	.first {
+		margin-right: 0;
+	}
+}

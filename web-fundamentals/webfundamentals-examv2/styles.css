@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	border: none;
+	font-family: sans-serif;
+}
+
+header {
+	height: 800px;
+	background: linear-gradient(to top, rgba(20, 20, 20, 0.817) 20%, rgba(28, 28, 28, 0.666) 80%), url(./images/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-bottom: 8px solid rgb(78, 78, 78);
+}
+
+nav img {
+	width: 230px;
+	margin-left: 30px;
+}
+
+nav select,
+nav button {
+	display: inline-block;
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	vertical-align: 45px;
+	background-color: rgba(55, 55, 55, 0.849);
+	border: 1px solid #fff;
+}
+
+nav select {
+	margin-left: 1180px;
+}
+
+nav button {
+	border: none;
+	margin-left: 20px;
+	background-color: rgb(252, 4, 4);
+}
+
+.input {
+	margin-top: 150px;
+	text-align: center;
+	color: #fff;
+}
+
+.input h2 {
+	margin-left: 560px;
+	width: 600px;
+	font-size: 60px;
+}
+
+.input h3 {
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+.input p {
+	margin-top: 40px;
+	font-size: 23px;
+}
+
+.input input {
+	margin-top: 25px;
+	width: 400px;
+	height: 30px;
+	vertical-align: 2px;
+	border-radius: 2px;
+	padding: 10px;
+	font-size: 15px;
+	color: rgb(144, 144, 144);
+}
+
+.input button {
+	width: 200px;
+	height: 50px;
+
+	border-radius: 2px;
+	font-size: 20px;
+	color: #fff;
+	background-color: rgb(252, 4, 4);
+}
+
+section {
+	height: 500px;
+	background-color: black;
+	color: #fff;
+	border-bottom: 8px solid rgb(78, 78, 78);
+}
+
+section h2 {
+	padding: 150px 0px 0px 300px;
+	width: 600px;
+	font-size: 60px;
+}
+
+section h3 {
+	width: 500px;
+	margin: 10px 0px 0px 302px;
+	font-size: 30px;
+}
+
+section img {
+	position: relative;
+	left: 900px;
+	bottom: 230px;
+}
+
+.indent img {
+	left: 250px;
+	bottom: 320px;
+}
+
+.indent h2 {
+	width: 450px;
+	padding: 80px 0px 20px 880px;
+}
+
+.indent h3 {
+	padding-left: 580px;
+}
+
+.kids-img img {
+	width: 500px;
+}
+.kids-img h2 {
+	width: 500px;
+}
+
+footer {
+	padding: 100px 0px 100px 250px;
+	background-color: black;
+	color: rgb(178, 177, 177);
+}
+
+footer p {
+	margin: 0px 0px 20px 10px;
+}
+
+footer ul {
+	display: inline-block;
+	width: 300px;
+}
+
+footer li {
+	padding: 10px;
+	font-size: 13px;
+	list-style-type: none;
+}
+
+footer .indent {
+	vertical-align: -39px;
+}
