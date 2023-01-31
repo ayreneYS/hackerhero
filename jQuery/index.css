@@ -11,14 +11,62 @@ nav {
 	display: inline-block;
 	width: 15%;
 	vertical-align: top;
+	padding: 30px 0px 0px 30px;
+}
+
+nav li {
+	list-style-type: none;
+	padding-bottom: 15px;
 }
 
 div {
+	text-align: center;
 	width: 80%;
 	display: inline-block;
 	border-left: 1px solid black;
+	background: rgb(239, 238, 238);
 }
 
-div ul li {
+div h1 {
+	padding: 30px;
+	font-size: 2.5rem;
+}
+
+div ul {
+	margin: 0px 330px auto;
+	width: 90%;
+}
+
+div li {
+	width: 50%;
+	padding: 30px;
 	list-style-type: none;
+	border-bottom: 1px solid black;
+}
+
+div h4 {
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+}
+
+div button {
+	display: inline;
+	padding: 2px 15px;
+	margin-right: 10px;
+	font-size: 1rem;
+	background-color: transparent;
+	border: 2px solid black;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+div p {
+	display: inline;
+	font-size: 1.1rem;
+}
+
+.show,
+.toggle {
+	display: none;
+	color: blue;
 }

@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./index.css" />
 		<title>JQuery</title>
+		<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 	</head>
 	<body>
 		<nav class="side-nav">
@@ -34,108 +35,128 @@
 			<h1>My Mini Documentation</h1>
 
 			<ul>
-				<li id="click">
+				<li>
 					<h4>Click</h4>
-					<button>.click()</button>
+					<button id="click">.click()</button>
 					<p>Bind an event handler to the “click” JavaScript event, or trigger that event on an element.</p>
 				</li>
 
-				<li id="hide">
+				<li>
 					<h4>Hide</h4>
-					<button>.hide()</button>
+					<button id="hide">.hide()</button>
 					<p>Hide the matched elements.</p>
 				</li>
 
-				<li id="show">
+				<li>
 					<h4>Show</h4>
-					<button>.show()</button>
+					<button id="show">.show()</button>
 					<p>Display the matched elements.</p>
+					<p class="show">Hello!</p>
 				</li>
 
-				<li id="toggle">
+				<li>
 					<h4>Toggle</h4>
-					<button>.toggle()</button>
+					<button id="toggle">.toggle()</button>
 					<p>Display or hide the matched elements.</p>
+					<p class="toggle">Hello!</p>
 				</li>
 
-				<li id="slideDown">
+				<li>
 					<h4>Slide Down</h4>
-					<button>.slideDown()</button>
+					<button id="slideDown">.slideDown()</button>
 					<p>Display the matched elements with a sliding motion.</p>
 				</li>
 
-				<li id="slideUp">
+				<li>
 					<h4>Slide Up</h4>
-					<button>.slideUp()</button>
+					<button id="slideUp">.slideUp()</button>
 					<p>Hide the matched elements with a sliding motion.</p>
 				</li>
 
-				<li id="slideToggle">
+				<li>
 					<h4>Slide Toggle</h4>
-					<button>.slideToggle()</button>
+					<button id="slideToggle">.slideToggle()</button>
 					<p>Display or hide the matched elements with a sliding motion.</p>
 				</li>
 
-				<li id="fadeIn">
+				<li>
 					<h4>Fade In</h4>
-					<button>.fadeIn()</button>
+					<button id="fadeIn">.fadeIn()</button>
 					<p>Display the matched elements by fading them to opaque.</p>
 				</li>
 
-				<li id="fadeOut">
+				<li>
 					<h4>Fade Out</h4>
-					<button>.fadeOut()</button>
+					<button id="fadeOut">.fadeOut()</button>
 					<p>Hide the matched elements by fading them to transparent.</p>
 				</li>
 
-				<li id="addClass">
+				<li>
 					<h4>Add Class</h4>
-					<button>.addClass()</button>
+					<button id="addClass">.addClass()</button>
 					<p>Adds the specified class(es) to each element in the set of matched elements.</p>
 				</li>
 
-				<li id="before">
+				<li>
 					<h4>Before</h4>
-					<button>.before()</button>
+					<button id="before">.before()</button>
 					<p>Insert content, specified by the parameter, before each element in the set of matched elements.</p>
 				</li>
 
-				<li id="after">
+				<li>
 					<h4>After</h4>
-					<button>.after()</button>
+					<button id="after">.after()</button>
 					<p>Insert content, specified by the parameter, after each element in the set of matched elements.</p>
 				</li>
 
-				<li id="append">
+				<li>
 					<h4>Append</h4>
-					<button>.append()</button>
+					<button id="append">.append()</button>
 					<p>Insert content, specified by the parameter, to the end of each element in the set of matched elements.</p>
 				</li>
 
-				<li id="html">
+				<li>
 					<h4>HTML</h4>
-					<button>.html()</button>
+					<button id="html">.html()</button>
 					<p>Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.</p>
 				</li>
 
-				<li id="attr">
+				<li>
 					<h4>Attr</h4>
-					<button>.attr()</button>
+					<button id="attr">.attr()</button>
 					<p>Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.</p>
 				</li>
 
-				<li id="val">
+				<li>
 					<h4>Val</h4>
-					<button>.val()</button>
+					<button id="val">.val()</button>
 					<p>Get the current value of the first element in the set of matched elements or set the value of every matched element.</p>
 				</li>
 
-				<li id="text">
-					<h4>Attr</h4>
-					<button>.text()</button>
+				<li>
+					<h4>Text</h4>
+					<button id="text">.text()</button>
 					<p>Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.</p>
 				</li>
 			</ul>
 		</div>
+		<script>
+			$('#click').click(function () {
+				alert('Handler for .click() called.');
+			});
+
+			$('#hide').click(function (e) {
+				e.preventDefault();
+				$(this).hide();
+			});
+
+			$('#show').click(function () {
+				$('.show').show();
+			});
+
+			$('#toggle').click(function () {
+				$('.toggle').toggle();
+			});
+		</script>
 	</body>
 </html>
